@@ -1,5 +1,5 @@
 COMPONENTS="infn-vo-wlcg infn-vo-escape"
-PKG_TAG=master
+PKG_TAG=main
 PKG_STAGE_RPMS=1
 #INCLUDE_BUILD_NUMBER=1
 #USE_DOCKER_REGISTRY=1
