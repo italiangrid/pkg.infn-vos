@@ -1,8 +1,0 @@
-COMPONENTS="wlcg"
-PKG_TAG=master
-PKG_STAGE_RPMS=1
-#INCLUDE_BUILD_NUMBER=1
-#USE_DOCKER_REGISTRY=1
-#BUILD_REPO_IAM_LOGIN_SERVICE=/code/iam
-PKG_REPO=/code/pkg.infn-vos
-DOCKER_ARGS="-v ${HOME}/git/pkg.infn-vos:/code/pkg.infn-vos:ro"
