@@ -1,0 +1,8 @@
+BUILD_NAME=infn-vo-wlcg
+BUILD_REPO=https://github.com/italiangrid/pkg.infn-vos
+BUILD_TAG=master
+PKG_REPO=https://github.com/italiangrid/pkg.infn-vos
+PKG_TAG=master
+PKG_SPEC_FILE=infn-vo-wlcg/rpm/infn-vo-wlcg/info-vo-wlcg.spec
+PKG_STAGE_RPMS=1
+TARBALL_VERSION=1.0.0
