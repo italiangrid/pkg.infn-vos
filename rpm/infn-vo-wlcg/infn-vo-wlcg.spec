@@ -1,6 +1,6 @@
 Name: infn-vo-wlcg
 Version: 1.0.0
-Release: 0%{?dist}
+Release: 1%{?dist}
 Summary: VOMS configuration for the WLCG VO
 
 Group: Applications/Internet
@@ -40,5 +40,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_sysconfdir}/vomses
 
 %changelog
+* Wed Oct 28 2020  Andrea Ceccanti <andrea.ceccanti at cnaf.infn.it> - 1.0.1-1
+- Fixed harmless typo in VOMSES file
 * Fri Oct 23 2020  Andrea Ceccanti <andrea.ceccanti at cnaf.infn.it> - 1.0.0-0
 - Initial release
