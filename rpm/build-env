@@ -5,5 +5,6 @@ PKG_STAGE_RPMS=1
 #USE_DOCKER_REGISTRY=1
 #BUILD_REPO_INFN_VO_WLCG=/code/pkg.infn-vos
 #BUILD_REPO_INFN_VO_ESCAPE=/code/pkg.infn-vos
+#BUILD_REPO_INFN_VO_CTA_LST=/code/pkg.infn-vos
 #PKG_REPO=/code/pkg.infn-vos
 #DOCKER_ARGS="-v ${HOME}/git/pkg.infn-vos:/code/pkg.infn-vos:ro"
