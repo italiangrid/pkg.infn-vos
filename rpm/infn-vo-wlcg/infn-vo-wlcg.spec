@@ -1,5 +1,5 @@
 Name: infn-vo-wlcg
-Version: 1.0.0
+Version: 1.1.0
 Release: 1%{?dist}
 Summary: VOMS configuration for the WLCG VO
 
@@ -40,6 +40,8 @@ rm -rf $RPM_BUILD_ROOT
 %{_sysconfdir}/vomses
 
 %changelog
+* Fri Nov 19 2021 Andrea Ceccanti <andrea.ceccanti at cnaf.infn.it> - 1.1.0-1
+- Updated LSC files configuration to align with 2021 cert DN structure
 * Wed Oct 28 2020  Andrea Ceccanti <andrea.ceccanti at cnaf.infn.it> - 1.0.1-1
 - Fixed harmless typo in VOMSES file
 * Fri Oct 23 2020  Andrea Ceccanti <andrea.ceccanti at cnaf.infn.it> - 1.0.0-0

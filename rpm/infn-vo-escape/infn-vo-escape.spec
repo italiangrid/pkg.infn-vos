@@ -1,6 +1,6 @@
 Name: infn-vo-escape
-Version: 1.0.0
-Release: 0%{?dist}
+Version: 1.1.0
+Release: 1%{?dist}
 Summary: VOMS configuration for the escape VO
 
 Group: Applications/Internet
@@ -40,5 +40,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_sysconfdir}/vomses
 
 %changelog
+* Fri Nov 19 2021 Andrea Ceccanti <andrea.ceccanti at cnaf.infn.it> - 1.1.0-1
+- LSC updates to align with 2021 certificate dn structure
 * Fri Oct 23 2020  Andrea Ceccanti <andrea.ceccanti at cnaf.infn.it> - 1.0.0-0
 - Initial release
