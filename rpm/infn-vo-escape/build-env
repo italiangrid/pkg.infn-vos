@@ -5,4 +5,4 @@ PKG_REPO=https://github.com/italiangrid/pkg.infn-vos
 PKG_TAG=main
 PKG_SPEC_FILE=infn-vo-escape/rpm/infn-vo-escape/infn-vo-escape.spec
 PKG_STAGE_RPMS=1
-TARBALL_VERSION=1.0.0
+TARBALL_VERSION=1.1.0
