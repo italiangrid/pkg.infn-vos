@@ -1,4 +1,4 @@
-COMPONENTS="infn-vo-wlcg infn-vo-escape"
+COMPONENTS="infn-vo-wlcg infn-vo-escape infn-vo-cta-lst"
 PKG_TAG=main
 PKG_STAGE_RPMS=1
 #INCLUDE_BUILD_NUMBER=1

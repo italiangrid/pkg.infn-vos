@@ -1,0 +1,8 @@
+BUILD_NAME=infn-vo-cta-lst
+BUILD_REPO=https://github.com/italiangrid/pkg.infn-vos
+BUILD_TAG=main
+PKG_REPO=https://github.com/italiangrid/pkg.infn-vos
+PKG_TAG=main
+PKG_SPEC_FILE=infn-vo-cta-lst/rpm/infn-vo-cta-lst/infn-vo-cta-lst.spec
+PKG_STAGE_RPMS=1
+TARBALL_VERSION=1.0.0
